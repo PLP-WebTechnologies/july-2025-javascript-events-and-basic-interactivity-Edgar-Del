@@ -1,20 +1,20 @@
-# 🧠 Assignment: Interactive Web Pages with JavaScript
+# Assignment: Interactive Web Pages with JavaScript
 
-Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀
+Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You'll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful.
 
 ---
 
-## 🎉 Part 1: JavaScript Event Handling and Interactive Elements
+## Part 1: JavaScript Event Handling and Interactive Elements
 
-Let’s start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
+Let's start with the basics of **event handling**. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
 
 **Goal:** Use event listeners to react to user behavior and trigger changes on the page (e.g., showing messages, toggling classes, hiding/showing content).
 
 ---
 
-## 🎮 Part 2: Building Interactive Elements
+## Part 2: Building Interactive Elements
 
-Now it’s time to apply what you’ve learned by creating your own mini interactive features. You can build things like:
+Now it's time to apply what you've learned by creating your own mini interactive features. You can build things like:
 
 * A light/dark mode toggle
 * A counter or button game
@@ -26,9 +26,9 @@ Now it’s time to apply what you’ve learned by creating your own mini interac
 
 ---
 
-## 📋✅ Part 3: Form Validation with JavaScript
+## Part 3: Form Validation with JavaScript
 
-Forms are essential to the web—and validating them properly is key to good user experience. You’ll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.
+Forms are essential to the web—and validating them properly is key to good user experience. You'll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.
 
 **Goal:** Prevent incorrect form submissions by writing custom validation logic using conditions and regular expressions. Show user-friendly error messages and success feedback.
 

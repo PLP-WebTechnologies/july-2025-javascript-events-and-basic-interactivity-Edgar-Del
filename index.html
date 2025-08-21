@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Page with JavaScript</h1>
+        <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+        <!-- Section 1: Theme Toggle -->
+        <section class="interactive-section">
+            <h2>Theme Toggle</h2>
+            <p>Click the button above to toggle between light and dark mode!</p>
+        </section>
+
+        <!-- Section 2: Interactive Counter -->
+        <section class="interactive-section">
+            <h2>Interactive Counter</h2>
+            <div class="counter-container">
+                <span id="counter-value">0</span>
+                <div class="counter-buttons">
+                    <button id="decrease-btn" class="btn">-</button>
+                    <button id="reset-btn" class="btn">Reset</button>
+                    <button id="increase-btn" class="btn">+</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Collapsible FAQ -->
+        <section class="interactive-section">
+            <h2>Collapsible FAQ</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">What is JavaScript?</button>
+                    <div class="faq-answer">
+                        <p>JavaScript is a programming language that allows you to create interactive and dynamic web pages.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do events work?</button>
+                    <div class="faq-answer">
+                        <p>Events are user actions (clicks, typing, etc.) that JavaScript can detect and respond to.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What is form validation?</button>
+                    <div class="faq-answer">
+                        <p>Validation checks if the data entered by the user is correct before submitting the form.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Tabbed Interface -->
+        <section class="interactive-section">
+            <h2>Tabbed Interface</h2>
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="tab1">Tab 1</button>
+                    <button class="tab-btn" data-tab="tab2">Tab 2</button>
+                    <button class="tab-btn" data-tab="tab3">Tab 3</button>
+                </div>
+                <div class="tabs-content">
+                    <div id="tab1" class="tab-content active">
+                        <h3>Tab 1 Content</h3>
+                        <p>This is the first tab with interesting content about JavaScript and events.</p>
+                    </div>
+                    <div id="tab2" class="tab-content">
+                        <h3>Tab 2 Content</h3>
+                        <p>The second tab contains information about DOM manipulation and interactivity.</p>
+                    </div>
+                    <div id="tab3" class="tab-content">
+                        <h3>Tab 3 Content</h3>
+                        <p>The third tab talks about form validation and UX best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Form with Validation -->
+        <section class="interactive-section">
+            <h2>Form with Validation</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="error-message" id="password-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <span class="error-message" id="confirm-password-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message" id="phone-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <span class="error-message" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="btn submit-btn">Submit Form</button>
+            </form>
+
+            <div id="form-success" class="success-message" style="display: none;">
+                <h3>Form Submitted Successfully!</h3>
+                <p>Thank you for contacting us!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Interactive Web Page with JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
